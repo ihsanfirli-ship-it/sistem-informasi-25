@@ -1,0 +1,32 @@
+##########################
+# Gitignore for CodeIgniter project
+##########################
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Composer dependencies
+/vendor/
+
+# Application cache and logs (runtime generated)
+application/cache/
+application/logs/
+
+# Session files
+application/cache/sessions/
+
+# Uploads (if not needed in repo)
+uploads/
+
+# IDE specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node modules (if any)
+node_modules/
+
+# Build artifacts
+/dist/
+/build/
